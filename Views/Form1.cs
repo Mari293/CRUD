@@ -38,6 +38,11 @@ namespace WindowsFormsApp2
             string sql = "SELECT * FROM personas";
             DataTable resultado1 = bd.DsplayData(sql);
             dataGridView1.DataSource = resultado1;
+            tbDocumento.Text = "";
+            tbNombre.Text = "";
+            tbApellido.Text = "";
+            tbEdad.Text = "";
+            tbSexo.Text = "";
         }
 
         private void btActualizar_Click(object sender, EventArgs e)
@@ -47,6 +52,11 @@ namespace WindowsFormsApp2
             string sql = "SELECT * FROM personas";
             DataTable resultado1 = bd.DsplayData(sql);
             dataGridView1.DataSource = resultado1;
+            tbDocumento.Text = "";
+            tbNombre.Text = "";
+            tbApellido.Text = "";
+            tbEdad.Text = "";
+            tbSexo.Text = "";
         }
 
         private void btEliminar_Click(object sender, EventArgs e)
@@ -56,6 +66,11 @@ namespace WindowsFormsApp2
             string sql = "SELECT * FROM personas";
             DataTable resultado1 = bd.DsplayData(sql);
             dataGridView1.DataSource = resultado1;
+            tbDocumento.Text = "";
+            tbNombre.Text = "";
+            tbApellido.Text = "";
+            tbEdad.Text = "";
+            tbSexo.Text = "";
         }
 
         private void btTodo_Click(object sender, EventArgs e)
